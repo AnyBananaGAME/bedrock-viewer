@@ -1,0 +1,35 @@
+{
+  "name": "bedrock-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "node src/viewer/prerender.js && webpack",
+    "webpack": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tweenjs/tween.js": "^23.1.1",
+    "compression": "^1.7.4",
+    "express": "^4.18.3",
+    "minecraft-assets": "^1.12.2",
+    "minecraft-data": "^3.62.0",
+    "prismarine-chunk": "^1.35.0",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4",
+    "three": "^0.128.0",
+    "three.meshline": "^1.4.0",
+    "webpack": "^5.90.3"
+  },
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "canvas": "^2.11.2",
+    "fs-extra": "^11.2.0",
+    "process": "^0.11.10",
+    "webpack-cli": "^5.1.4"
+  }
+}
