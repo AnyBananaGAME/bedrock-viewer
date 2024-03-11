@@ -1,2 +1,4 @@
-node_modules/*
-!node_modules/minecraft_data
+/node_modules/*
+!/node_modules/minecraft-data/
+/node_modules/minecraft-data/node_modules/*
+
