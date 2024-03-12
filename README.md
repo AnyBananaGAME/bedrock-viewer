@@ -9,14 +9,6 @@
 > This was made to work with [BedrockRat](https://github.com/AnyBananaGAME/BedrockRat) so you may need to add more stuff than just whats in the example.
 
 
-
-## Install
-
-```bash
-npm install github:AnyBananaGAME/bedrock-viewer
-```
-
-
 ## Example
 
 ```js
