@@ -9,7 +9,9 @@
 > This was made to work with [BedrockRat](https://github.com/AnyBananaGAME/BedrockRat) so you may need to add more stuff than just whats in the example.
 
 
+
 ## Example
+
 
 ```js
 const {createClient} = require('bedrock-protocol')
